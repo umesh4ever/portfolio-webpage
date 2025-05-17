@@ -14,8 +14,9 @@ nav{
     flex-direction: row;
 
 }
-img{
-    height: 400px;
- 
-   
+
+#box{
+    height: 50px;
+    width: 50px;
+    background-color: red;
 }
