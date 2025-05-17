@@ -1,0 +1,21 @@
+*{
+    background-color: #FBDB93;
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    width: 100vw;
+    height: 8vh;
+    background-color: #641B2E;
+}
+.intro{
+    display: flex;
+    flex-direction: row;
+
+}
+img{
+    height: 400px;
+ 
+   
+}
