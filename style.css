@@ -4,9 +4,9 @@
     padding: 0;
 }
 
-nav{
+.navbar{
     width: 100vw;
-    height: 8vh;
+    /* height: 8vh; */
     background-color: #641B2E;
 }
 .intro{
