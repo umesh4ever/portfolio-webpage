@@ -101,24 +101,3 @@ header span{
     color: #000;
 }
 
-.card-section{
-    height: 1200px;
-    width: 100%;
-    
-    border-radius:50px 50px 0px 0px ;
-}
-
-section .mainCards{
-    padding-top: 3rem;
-    display: flex;
-    justify-content: space-evenly ;
-    gap: 5rem;
-}
-
-.card{
-    height: 500px;
-    width: 400px;
-    background-color: #ff6b81;
-    border-radius: 20px;
-}
-
