@@ -4,12 +4,13 @@
     outline: none;
     border: none;
     box-sizing: border-box;
+    color: #dce1de;
 }
 
 body {
     font-family: cursive, sans-serif;
-    /* background-color: #1f1f2f; */
-    background-image: url(images/2nd-bg.jpg);
+    background-color: #216869;
+    /* background-image: url(images/2nd-bg.jpg); */
 
 }
 
@@ -23,9 +24,11 @@ nav img {
 }
 
 nav {
-    margin-top: 1rem;
-    margin-right: 2rem;
-    margin-left: 2rem;
+    margin: 1rem 0rem;
+    /* width: 100%; */
+    height: 6rem;
+    /* border-radius: 1rem; */
+    background-color: #1f2421;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -54,15 +57,16 @@ nav {
     background-color: #1d4ed8;
     color: #fff;
     cursor: pointer;
-    border-radius: 5px;
+    border-radius: 0.5rem;
 }
-.btn:hover{
+
+.btn:hover {
     background-color: #1e40af;
 }
 
 
 
-.container{
+.container {
     margin-top: 2rem;
     color: #fff;
     display: flex;
@@ -71,18 +75,19 @@ nav {
 
 }
 
-header img{
+header img {
     margin: 5rem;
-    height: 500px;
+    width: 90vw;
     border-radius: 50%;
     padding-top: 0;
     margin-top: 0;
 }
 
-header h1{
+header h1 {
     margin: 1rem 1rem;
 }
-header h1.name{
+
+header h1.name {
     margin: 1rem;
     margin-left: 1rem;
 }
@@ -96,8 +101,68 @@ header p {
     font-size: 1.7rem;
 }
 
-header span{
-    -webkit-text-stroke: 2px #fff;
+header span {
+    -webkit-text-stroke: 0.1rem #fff;
     color: #000;
 }
 
+/* mobile (min-width: 300px) */
+@media (max-width: 500px) {
+    .image {
+        width: 200px;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: flex-end;
+
+    }
+}
+
+
+.project-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    font-size: 1.5rem;
+   
+}
+
+.project-container img{
+    height: 30rem;
+}
+
+
+.text-info {
+    /* text-align: center; */
+    width: 1400px;
+
+}
+.project-container .img{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+}
+
+
+
+
+/* Tablet (min-width: 600px) */
+@media (min-width: 600px) {
+    .image {
+        width: 300px;
+    }
+}
+
+/* laptop (min-width: 600px) */
+@media (min-width: 1200px) {
+    .image {
+        width: 500px;
+    }
+}

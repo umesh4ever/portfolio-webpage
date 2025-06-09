@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Umesh</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-      <nav>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>
       <div class="nav-logo">
         <a href="#">
           <img src="images/umesh.jpg" alt="" />
@@ -60,33 +60,117 @@
       </div>
     </header>
 
+    <section>
+      <div class="project-container">
+        <div class="text-info">
+          <h1>My Project</h1>
+          <h1>Forum page</h1>
+          <p>
+            I developed a complete forum web application that enables users to
+            register, log in, post questions, and engage in threaded
+            discussions. The front end is built using HTML, CSS, and JavaScript,
+            while the back end is powered by PHP with MySQLi for database
+            operations.
+          </p>
 
-    
+          <h2>Key features include:</h2>
+
+          <ul>
+            <li>User registration and login with session handling</li>
+            <li>Posting and replying to discussion threads</li>
+            <li>Input validation and secure database interaction</li>
+            <li>Organized layout with a responsive design</li>
+          </ul>
+
+          <p>
+            This project helped me understand full-stack development, including
+            database design, server-side logic, and UI/UX structuring. It's a
+            great example of how I combine frontend design with backend logic to
+            create dynamic web applications.
+          </p>
+        </div>
+
+        <div class="first img main-img">
+          <img src="images/main-img.png" alt="" />
+          <div><h2>Main Page</h2></div>
+        </div>
+        <div class="second img">
+          <img src="images/forum-layouts.png" alt="" />
+          <div><h2>Main Page</h2></div>
+        </div>
+        <div class="third img">
+          <img src="images/forum-page.png" alt="" />
+          <div><h2>Main Page</h2></div>
+        </div>
+        <div class="fourth img">
+          <img src="images/login-img.png" alt="" />
+          <div><h2>Main Page</h2></div>
+        </div>
+        <div class="fifth img">
+          <img src="images/search-output-page.png" alt="" />
+          <div><h2>Main Page</h2></div>
+        </div>
+      </div>
+    </section>
+
     <!-- Footer HTML -->
-<footer style="background-color: #1f1f2f; color: #f1f1f1; padding: 2rem 1rem; text-align: center;">
-  <div style="margin-bottom: 1rem;">
-    
-    <a href="https://x.com/umesh26710051?t=osNStRsMP5N1hCn3TWjRVg&s=09" target="_blank" style="margin: 0 10px;">
-      <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/x.svg" alt="X" width="24" style="filter: invert(100%);">
-    </a>
-    <a href="https://www.linkedin.com/in/umesh-b7066627b/" target="_blank" style="margin: 0 10px;">
-      <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/linkedin.svg" alt="LinkedIn" width="24" style="filter: invert(100%);">
-    </a>
-    <a href="https://github.com/umesh4ever" target="_blank" style="margin: 0 10px;">
-      <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/github.svg" alt="GitHub" width="24" style="filter: invert(100%);">
-    </a>
-  </div>
+    <footer
+      style="
+        background-color: #1f2421;
+        color: #f1f1f1;
+        padding: 2rem 1rem;
+        text-align: center;
+      "
+    >
+      <div style="margin-bottom: 1rem">
+        <a
+          href="https://x.com/umesh26710051?t=osNStRsMP5N1hCn3TWjRVg&s=09"
+          target="_blank"
+          style="margin: 0 10px"
+        >
+          <img
+            src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/x.svg"
+            alt="X"
+            width="24"
+            style="filter: invert(100%)"
+          />
+        </a>
+        <a
+          href="https://www.linkedin.com/in/umesh-b7066627b/"
+          target="_blank"
+          style="margin: 0 10px"
+        >
+          <img
+            src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/linkedin.svg"
+            alt="LinkedIn"
+            width="24"
+            style="filter: invert(100%)"
+          />
+        </a>
+        <a
+          href="https://github.com/umesh4ever"
+          target="_blank"
+          style="margin: 0 10px"
+        >
+          <img
+            src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/github.svg"
+            alt="GitHub"
+            width="24"
+            style="filter: invert(100%)"
+          />
+        </a>
+      </div>
 
-  <div style="font-size: 0.9rem; color: #c0c0d0;">
-    &copy; <span id="year"></span> Umesh. All rights reserved.
-  </div>
-</footer>
+      <div style="font-size: 1.2rem; color: #c0c0d0">
+        &copy; <span id="year"></span> Umesh. All rights reserved.
+      </div>
+    </footer>
 
-<!-- Optional JS to auto-update year -->
-<script>
-  document.getElementById("year").textContent = new Date().getFullYear();
-</script>
+    <!-- Optional JS to auto-update year -->
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
 
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
