@@ -50,6 +50,9 @@ nav {
 .link a {
     color: #fff;
 }
+.link a:hover {
+    color: #216869;
+}
 .nav-logo{
     font-size: 2rem;
     flex: 0.9;
