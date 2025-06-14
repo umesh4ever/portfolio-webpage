@@ -161,7 +161,7 @@ header span {
     gap: 5rem;
 }
 
-.project-container h1,h2{
+.project-container h1,.project-container h1{
     color: #000;
 }
 
