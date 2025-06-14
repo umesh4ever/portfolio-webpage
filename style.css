@@ -1,3 +1,7 @@
+html{
+    scroll-behavior:smooth;
+}
+
 * {
     padding: 0;
     margin: 0;
@@ -30,6 +34,7 @@ nav {
     align-items: center;
     justify-content: space-around;
     gap: 2rem;
+    /* position: fixed; */
 
 }
 
@@ -37,6 +42,7 @@ nav {
     list-style: none;
     display: flex;
     align-items: center;
+    justify-content: space-evenly;
     gap: 8rem;
     font-size: 1.5rem;
 }
@@ -114,13 +120,18 @@ header span {
     background-color: #9cc5a1;
     border-top-left-radius:2rem ;
     border-top-right-radius:2rem ;
+    border-bottom-left-radius:2rem ;
+    border-bottom-right-radius:2rem ;
 }
 
 
 
 
 
-
+#project{
+    margin: 2rem 8rem;
+    /* padding-top: 2rem; */
+}
 .project-container {
     display: flex;
     flex-direction: column;
@@ -133,6 +144,7 @@ header span {
 
 .project-container img{
     height: 30rem;
+    width: auto;
 }
 
 
@@ -149,8 +161,9 @@ header span {
     gap: 5rem;
 }
 
-
-
+.project-container h1,h2{
+    color: #000;
+}
 
 /* Tablet (min-width: 600px) */
 @media (min-width: 600px) {
