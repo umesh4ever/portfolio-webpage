@@ -198,3 +198,8 @@ header span {
 #footer_main img{
     filter: invert(100%);
 }
+
+#footer_icon{
+    font-size: 1.2rem; 
+    color: #c0c0d0;
+}
