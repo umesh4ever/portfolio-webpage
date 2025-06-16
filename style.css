@@ -1,5 +1,5 @@
-html{
-    scroll-behavior:smooth;
+html {
+    scroll-behavior: smooth;
 }
 
 * {
@@ -12,7 +12,7 @@ html{
 }
 
 body {
-    font-family:'Segoe Print', 'Patrick Hand',sans-serif;
+    font-family: 'Segoe Print', 'Patrick Hand', sans-serif;
     background-color: #216869;
     /* background-image: url(images/2nd-bg.jpg); */
 
@@ -50,15 +50,18 @@ nav {
 .link a {
     color: #fff;
 }
+
 .link a:hover {
     color: #216869;
 }
-.nav-logo{
+
+.nav-logo {
     font-size: 2rem;
     flex: 0.9;
 }
+
 .nav-logo a {
-     color: #9cc5a1;
+    color: #9cc5a1;
 }
 
 
@@ -73,7 +76,7 @@ nav {
 
 header img {
     margin: 5rem;
-    width: 90vw;
+    width: 20vw;
     border-radius: 50%;
     padding-top: 0;
     margin-top: 0;
@@ -102,15 +105,15 @@ header span {
     color: #1f2421;
 }
 
-.skills-section{
+.skills-section {
     /* margin-top: 1rem; */
     width: 100%;
     height: 50rem;
     background-color: #9cc5a1;
-    border-top-left-radius:2rem ;
-    border-top-right-radius:2rem ;
-    border-bottom-left-radius:2rem ;
-    border-bottom-right-radius:2rem ;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
     color: #000;
 
     display: flex;
@@ -119,27 +122,29 @@ header span {
     padding-top: 1rem;
     justify-content: space-evenly;
 }
-.skill-card{
+
+.skill-card {
     color: #000;
     background-color: #1f2421;
     height: 23rem;
-    width:  18rem;
+    width: 18rem;
     border-radius: 1rem;
     padding-top: 1rem;
     text-align: center;
-    
+
 }
 
-.skill-card img{
+.skill-card img {
     width: 18rem;
-  
+
 }
 
 
-#project{
+#project {
     margin: 2rem 8rem;
     /* padding-top: 2rem; */
 }
+
 .project-container {
     display: flex;
     flex-direction: column;
@@ -147,10 +152,10 @@ header span {
     align-items: center;
     gap: 5rem;
     font-size: 1.5rem;
-   
+
 }
 
-.project-container img{
+.project-container img {
     height: 30rem;
     width: auto;
 }
@@ -161,28 +166,35 @@ header span {
     width: 1400px;
 
 }
-.project-container .img{
+
+.project-container .img {
     display: flex;
-    flex-direction:row;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
     gap: 5rem;
 }
 
-.project-container h1,.project-container h2{
+.project-container h1,
+.project-container h2 {
     color: #000;
 }
 
-/* Tablet (min-width: 600px) */
-@media (min-width: 600px) {
-    .image {
-        width: 300px;
-    }
+#footer {
+    background-color: #1f2421;
+    color: #f1f1f1;
+    padding: 2rem 1rem;
+    text-align: center;
 }
 
-/* laptop (min-width: 600px) */
-@media (min-width: 1200px) {
-    .image {
-        width: 500px;
-    }
+#footer_main{
+    margin-bottom: 1rem;
+}
+
+#footer_main a{
+    margin: 0 10px;
+}
+
+#footer_main img{
+    filter: invert(100%);
 }
