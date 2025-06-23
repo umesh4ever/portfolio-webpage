@@ -8,8 +8,19 @@
       href="https://fonts.googleapis.com/css2?family=YourFontName&display=swap"
       rel="stylesheet"
     />
-    <link rel="shortcut icon" href="https://www.favicon.cc/logo3d/545082.png" sizes="" type="image/x-icon">
+    <link
+      rel="shortcut icon"
+      href="https://www.favicon.cc/logo3d/545082.png"
+      sizes=""
+      type="image/x-icon"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsive.css" />
   </head>
   <body>
     <nav>
@@ -17,12 +28,15 @@
         <a href="https://umesh4ever.github.io/portfolio-webpage/">Umesh</a>
       </div>
 
-      <ul class="nav-links">
+      <ul class="menu-link nav-links">
         <li class="link"><a href="index.html">Home</a></li>
         <li class="link"><a href="#skills">My Skills</a></li>
         <li class="link"><a href="#project  ">Projects</a></li>
         <li class="link"><a href="#footer">Contact</a></li>
       </ul>
+      <div class="ham">
+        <i class="fa-solid fa-bars"></i>
+      </div>
     </nav>
 
     <header class="container">
@@ -61,28 +75,47 @@
 
     <section id="skills">
       <div class="skills-section">
-
         <div class="skill-card">
-          <img src="images/html-5.png" alt="image" />
+          <img src="images/html-5.png" alt="html" />
           <div>
             <h1>HTML</h1>
           </div>
         </div>
 
         <div class="skill-card">
-          <img src="images/css-3.png" alt="image" />
+          <img src="images/css-3.png" alt="css" />
           <div>
             <h1>CSS</h1>
           </div>
         </div>
 
         <div class="skill-card">
-          <img src="images/js.png" alt="image" />
+          <img src="images/js.png" alt="js" />
           <div>
             <h1>JavaScript</h1>
           </div>
         </div>
 
+        <div class="skill-card">
+          <img src="images/php_logo.svg" alt="php" />
+          <div>
+            <h1>PHP</h1>
+          </div>
+        </div>
+
+        <div class="skill-card">
+          <img src="images/mysql_logo.svg" alt="Mysql" />
+          <div>
+            <h1>MySql</h1>
+          </div>
+        </div>
+
+        <div class="skill-card">
+          <img src="images/Bootstrap_logo.svg" alt="Bootstrap" />
+          <div>
+            <h1>BootStrap</h1>
+          </div>
+        </div>
       </div>
     </section>
 
@@ -187,26 +220,26 @@
       </div>
     </section>
 
-    
     <footer id="footer">
       <div id="footer_main">
-        <a href="https://x.com/umesh26710051?t=osNStRsMP5N1hCn3TWjRVg&s=09" target="_blank">
-          <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/x.svg" alt="X" width="24" />
-        </a>
         <a
-          href="https://www.linkedin.com/in/umesh-b7066627b/"
+          href="https://x.com/umesh26710051?t=osNStRsMP5N1hCn3TWjRVg&s=09"
           target="_blank"
         >
+          <img
+            src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/x.svg"
+            alt="X"
+            width="24"
+          />
+        </a>
+        <a href="https://www.linkedin.com/in/umesh-b7066627b/" target="_blank">
           <img
             src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/linkedin.svg"
             alt="LinkedIn"
             width="24"
           />
         </a>
-        <a
-          href="https://github.com/umesh4ever"
-          target="_blank"
-        >
+        <a href="https://github.com/umesh4ever" target="_blank">
           <img
             src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/github.svg"
             alt="GitHub"
@@ -219,8 +252,6 @@
         &copy; <span id="year"></span> Umesh. All rights reserved.
       </div>
     </footer>
-
-   
 
     <script src="script.js"></script>
   </body>
