@@ -10,13 +10,21 @@ html {
     box-sizing: border-box;
     color: #dce1de;
     /* font-size: x-large; */
-    
+
 }
 
 body {
-    font-family: 'Segoe Print', 'Patrick Hand', sans-serif;
-    background-color:grey;
+    /* font-family: 'Segoe Print', 'Patrick Hand', sans-serif; */
+    background-color: grey;
     /* background-image: url(images/2nd-bg.jpg); */
+
+
+    font-family: "Patrick Hand SC", cursive;
+    font-weight: 1;
+    font-style: normal;
+    font-size: 2rem;
+
+
 
 }
 
@@ -27,7 +35,8 @@ a {
 
 
 nav {
-    margin: 1rem 0rem;
+    position: sticky;
+    margin: 0rem 0rem;
     width: 100%;
     height: 5rem;
     /* border-radius: 1rem; */
@@ -64,34 +73,64 @@ nav {
     color: #9cc5a1;
 }
 
-.ham{
+.ham {
+    display: none;
+    cursor: pointer;
+}
+
+#ham-btn {
+    background-color: #1f2421;
+}
+
+.mobile-menu {
     display: none;
 }
 
-.container {
-    margin-top: 2rem;
-    color: #fff;
-    display: flex;
-    padding: 2rem;
+.mobile-menu.active {
+    display: block;
+}
+
+
+.mobile-menu li {
+    /* text-align: center; */
+    padding: 0.3rem;
 
 }
 
-header img {
-    margin: 5rem;
-    width: 20vw;
+.container {
+    margin-top: 1rem;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 0rem 5rem;
+    /* background-image: url(images/image.png); */
+    background-size: no-repeat;
+
+
+}
+
+#main-img {
+    text-align: center;
+}
+
+#main-img img {
+    /* margin: 5rem; */
+    width: 30rem;
+    height: auto;
     border-radius: 50%;
     padding-top: 0;
     margin-top: 0;
 }
 
-header h1 {
-    margin: 1rem 1rem;
+#hero-intro {
+    text-align: center;
 }
 
-header h1.name {
-    margin: 1rem;
-    margin-left: 1rem;
+header h1 {
+    /* margin: 1rem 1rem; */
 }
+
+header h1.name {}
 
 header h4 {
     padding: 1rem 1rem;
@@ -102,17 +141,17 @@ header p {
 }
 
 header span {
-    -webkit-text-stroke: 0.1rem #9cc5a1;
-    color: #1f2421;
+    -webkit-text-stroke: 0.05rem #4fae5c;
+    color: #fff;
 }
-section {
-}
+
+
 .skills-section {
     /* margin-top: 1rem; */
     width: 100%;
     /* height: 50rem; */
     background-color: grey;
-    
+    padding: 0rem 2rem;
     border-top-left-radius: 2rem;
     border-top-right-radius: 2rem;
 
@@ -122,7 +161,7 @@ section {
     flex-direction: row;
     flex-wrap: wrap;
     column-gap: 10rem;
-    
+
     justify-content: space-evenly;
 }
 
@@ -131,95 +170,48 @@ section {
     flex-direction: column;
     color: #fff;
     background-color: #474e4a;
-    height: 10rem;
-    width: 10rem;
+    height: 8rem;
+    width: 8rem;
+    font-size: 1.5rem;
     border-radius: 1rem;
     padding-top: 0rem;
-    margin: 2rem 0rem ;
+    margin: 2rem 0rem;
     justify-content: center;
     text-align: center;
     text-align: center;
 
 }
 
-.skill-card:hover{
+.skill-card:hover {
     border: 2px solid green;
 }
 
 .skill-card img {
-    width:8rem;
+    width: 8rem;
 
 }
 
-#phpForum-head{
-    text-align: left;
-    margin: 0rem 10rem;
-}
 
-#phpForum-head h1, 
-#phpForum-head h2{
-    color: #000000;
-}
-
-#phpForum-head p,
-#phpForum-head ul,
-#phpForum-head h2{
-    margin: 0rem 10rem;
-}
-
-.project-container img {
-    height: 20rem;
-    width: auto;
-}
-
-
-.text-info {
-    /* text-align: center; */
-    width: 100vw;
-    height: auto;
-
-}
-
-.project-container .img {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 5rem;
-}
-
-.project-container h1,
-.project-container h2 {
-    color: #000;
-}
-.fifth img{
-    height: 10rem;
-}
 
 #footer {
     background-color: #1f2421;
     color: #f1f1f1;
-    padding: 2rem 1rem;
+    padding: 1rem 1rem;
     text-align: center;
 }
 
-#footer_main{
+#footer_main {
     margin-bottom: 1rem;
 }
 
-#footer_main a{
+#footer_main a {
     margin: 0 10px;
 }
 
-#footer_main img{
+#footer_main img {
     filter: invert(100%);
 }
 
-#footer_icon{
+#footer_icon {
     color: #c0c0d0;
 }
-
-
-
-
-

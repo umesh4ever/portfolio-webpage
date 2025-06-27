@@ -3,8 +3,12 @@
 
 @media (min-width: 768px) and (max-width: 1024px){
 
+ 
+    .body{
+        font: 0.5rem;
+    }
+
     .nav-links{
-        
         gap: 2rem;
         font-size: 1.3rem;
     }
@@ -23,34 +27,16 @@
     .skill-card img{
         width: 10rem;
     }
-    .menuR{
-        /* display: none; */
-        
-    background-color: #000;
-    list-style: none;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
-    /* gap: 8rem; */
-    font-size: 1.5rem;
+
+    .ham{
+        display: none;
     }
-
-    .ham-btn:active{
-        .menuR{
-            display: block;
-        }
-
+    .skills-section{
+        column-gap: 5rem;
     }
-
-    .menuc {
-  display: none;
-  }
-
-  #menu-toggle:checked ~ .menuR {
-  display: block;
-}
-
+        #footer{
+        padding: 1rem;
+    }
 
 
 
@@ -61,16 +47,80 @@
 
                                                    /* MOBILE PHONE  */
 
-@media (max-width: 767px){
+@media (max-width:500px){
 
-    .nav-links{
-        visibility: hidden;
+    .body{
+        font-size: small;
     }
 
+    .menu-link{
+        display: none;
+    }
+    .nav-logo{
+        /* text-align: center; */
+        font-size: xx-large;
+    }
+    
     .ham{
         display: block;
+        cursor: pointer;
     }
 
-} 
+    .mobile-menu{
+    background-color: #1f2421;
+    opacity: 0.8;
+    margin: 0rem 0rem;
+    padding: 0rem 7rem;
+    font-size: larger;
+    display: none;
+    display: flex;
+    flex-direction: column;
+    }
+   
+    .mobile-menu ul{
+        
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+
+        .skills-section{
+        column-gap: 2rem;
+    }
+
+    .container{
+        padding: 0rem 1rem ;
+        font-size: 1.5rem
+    }
+    #p1{
+        color: blue;
+    }
+    
+    #p2{
+        color: green;
+    
+    }
+    #p3{
+        color: pink;
+    }
+    
+    #p4{
+        color: lightsalmon;
+    }
+    
+#footer {
+    padding: 0.5rem 1rem;
+    font-size: 1.2rem;
+}
+
+#footer_main {
+    margin-bottom: 0rem;
+}
+
+
+}
 
  

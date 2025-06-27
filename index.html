@@ -4,10 +4,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Umesh</title>
-    <link
-      href="https://fonts.googleapis.com/css2?family=YourFontName&display=swap"
-      rel="stylesheet"
-    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand+SC&family=UoqMunThenKhung&display=swap" rel="stylesheet">
     <link
       rel="shortcut icon"
       href="https://www.favicon.cc/logo3d/545082.png"
@@ -36,45 +35,58 @@
       </ul>
 
       <div class="ham">
-        <i class="fa-solid fa-bars"></i>
+        <button id="ham-btn"><i class="fa-solid fa-bars fa-2x"></i>
+        <!-- <i class="fa-solid fa-xmark fa-2x"></i></button> -->
       </div>
     </nav>
 
+    <div class="mobile-menu">
+      <!-- <ul class="mobile-menu-ul"> -->
+      <li class="mobile-menu-link"><a href="index.html">Home</a></li>
+      <li class="mobile-menu-link"><a href="#skills">My Skills</a></li>
+      <li class="mobile-menu-link"><a href="#project  ">Projects</a></li>
+      <li class="mobile-menu-link"><a href="#footer">Contact</a></li>
+      <!-- </ul> -->
+    </div>
+
     <header class="container">
       <div class="container">
+        <!-- <div id="main-img">
+          <img class="image" src="images/image.png" alt="huge image here" />
+        </div> -->
         <div class="content">
-          <h1>Hola!,</h1>
+          <div id="hero-intro">
+          <h1>Hello!,</h1>
           <h1 class="name">I'm <span>Umesh</span> a Web Developer</h1>
-          <p>
+          </div>
+          <p id="p1">
+            
             I'm a self-taught web developer who enjoys turning ideas into
             real-world web applications.
           </p>
 
-          <p>
+          <p id="p2">
             I've worked with front-end technologies like HTML, CSS, JavaScript,
             and Bootstrap, and also have back-end experience using PHP and
             MySQL.
           </p>
 
-          <p>
+          <p id="p3">
             My focus is on writing clean code, solving problems efficiently, and
             constantly improving my skills.
           </p>
 
-          <p>
+          <p id="p4">
             I'm currently exploring full-stack development and building projects
             that help me learn by doing. Always open to collaborations,
             internships, or freelance work.
           </p>
         </div>
-
-        <div>
-          <img class="image" src="images/image.png" alt="huge image here" />
-        </div>
       </div>
     </header>
 
     <section id="skills">
+      <h1 style="text-align: center;">My Skills</h1>
       <div class="skills-section">
         <div class="skill-card">
           <i
@@ -82,7 +94,7 @@
             style="color: #e44d26; font-size: 5rem"
           ></i>
           <div>
-            <h1>HTML</h1>
+            <h3>HTML</h3>
           </div>
         </div>
 
@@ -92,7 +104,7 @@
             style="color: #264de4; font-size: 5rem"
           ></i>
           <div>
-            <h1>CSS</h1>
+            <h3>CSS</h3>
           </div>
         </div>
 
@@ -102,7 +114,7 @@
               class="fa-brands fa-square-js"
               style="color: #f7df1e; font-size: 5rem"
             ></i>
-            <h1>JavaScript</h1>
+            <h3>JavaScript</h3>
           </div>
         </div>
 
@@ -112,14 +124,14 @@
             style="color: #8892be; font-size: 5rem"
           ></i>
           <div>
-            <h1>PHP</h1>
+            <h3>PHP</h3>
           </div>
         </div>
 
         <div class="skill-card">
           <img src="images/mysql_logo.svg" alt="Mysql" />
           <div>
-            <h1>MySql</h1>
+            <h3>MySql</h3>
           </div>
         </div>
 
@@ -129,7 +141,7 @@
             style="color: #7952b3; font-size: 5rem"
           ></i>
           <div>
-            <h1>BootStrap</h1>
+            <h3>BootStrap</h3>
           </div>
         </div>
 
@@ -139,7 +151,7 @@
             style="color: #fff; font-size: 5rem"
           ></i>
           <div>
-            <h1>github</h1>
+            <h3>github</h3>
           </div>
         </div>
         <div class="skill-card">
@@ -148,109 +160,7 @@
             style="color: #f05032; font-size: 5rem"
           ></i>
           <div>
-            <h1>git</h1>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="project">
-      <div class="project-container">
-        <div class="text-info">
-          <div id="phpForum-head">
-            <h1 style="text-align: center;">My Project : Php Forum page</h1>
-            <p>
-              I developed a complete forum web application that enables users to
-              register, log in, post questions, and engage in threaded
-              discussions. The front end is built using HTML, CSS, and
-              JavaScript, while the back end is powered by PHP with MySQLi for
-              database operations.
-            </p>
-
-            <h2>Key features include:</h2>
-
-            <ul>
-              <li>User registration and login with session handling</li>
-              <li>Posting and replying to discussion threads</li>
-              <li>Input validation and secure database interaction</li>
-              <li>Organized layout with a responsive design</li>
-            </ul>
-
-            <p>
-              This project helped me understand full-stack development,
-              including database design, server-side logic, and UI/UX
-              structuring. It's a great example of how I combine frontend design
-              with backend logic to create dynamic web applications.
-            </p>
-          </div>
-        </div>
-
-        <div class="first img main-img">
-          <img src="images/main-img.png" alt="" />
-          <div>
-            <h2>Main Page</h2>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat in
-              alias, cupiditate error vero enim. Ut nisi quidem cum aliquid
-              voluptate rem nemo, accusantium impedit cumque eveniet at
-              voluptatibus delectus! Esse fuga optio consequuntur nam pariatur
-              consequatur atque eius assumenda, culpa dolorem, excepturi
-              deleniti sapiente obcaecati soluta dicta quaerat neque cumque quas
-              hic?
-            </p>
-          </div>
-        </div>
-        <div class="second img">
-          <img src="images/forum-layouts.png" alt="" />
-          <div>
-            <h2>Main Page</h2>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat in
-              alias, cupiditate error vero enim. Ut nisi quidem cum aliquid
-              voluptate rem nemo, accusantium impedit cumque eveniet at
-              voluptatibus delectus! Esse fuga optio consequuntur nam pariatur
-              consequatur atque eius assumenda, culpa dolorem, excepturi
-              deleniti sapiente obcaecati soluta dicta quaerat neque cumque quas
-              hic?
-            </p>
-          </div>
-        </div>
-        <div class="third img">
-          <img src="images/forum-page.png" alt="" />
-          <div>
-            <h2>Main Page</h2>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat in
-              alias, cupiditate error vero enim. Ut nisi quidem cum aliquid
-              voluptate rem nemo, accusantium impedit cumque eveniet at
-              voluptatibus delectus! Esse fuga optio consequuntur nam pariatur
-              consequatur atque eius assumenda, culpa dolorem, excepturi
-              deleniti sapiente obcaecati soluta dicta quaerat neque cumque quas
-              hic?
-            </p>
-          </div>
-        </div>
-        <div class="fourth img">
-          <img src="images/login-img.png" alt="" />
-          <div>
-            <h2>Main Page</h2>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat in
-              alias, cupiditate error vero enim. Ut nisi quidem cum aliquid
-              volupdeleniti sapiente obcaecati soluta dicta quaerat neque cumque
-              quas hic?
-            </p>
-          </div>
-        </div>
-        <div class="fifth img">
-          <img src="images/search-output-page.png" alt="" />
-          <div>
-            <h2>Main Page</h2>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat in
-              alias, cupiditate error vero enim. Ut nisi quidem cum aliquid s
-              hic?
-            </p>
+            <h3>git</h3>
           </div>
         </div>
       </div>
