@@ -1,8 +1,11 @@
                                                    /* TABLETS  */
+html{
+    font-size: 16px;
+}
 
+@media (min-width: 601px) and (max-width: 1024px){
 
-@media (min-width: 501px) and (max-width: 1024px){
-
+    
  
     .body{
         font: 0.5rem;
@@ -42,7 +45,8 @@
     }
 
     #php-video video{
-        width: 50rem;
+        min-width: 30rem;
+        max-width: 40rem;
         height: auto;
     }
     #project h3{
@@ -56,7 +60,7 @@
 
                                                    /* MOBILE PHONE  */
 
-@media (max-width:500px){
+@media (max-width:600px){
 
 
     .menu-link{
@@ -130,12 +134,13 @@
     #project{
         margin: 2rem 1rem;
     }
-    .php-project{
+    .php-project{ 
         flex-direction: column;
     }
 
     #php-video video{
-        width: 20rem;
+        min-width: 20rem;
+        max-width: 30rem;
         height: auto;
     }
     #project h3{
