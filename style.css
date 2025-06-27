@@ -225,6 +225,7 @@ header span {
 }
 #project h2{
     text-align: center;
+    
 }
 
 #php-video{
@@ -247,4 +248,36 @@ header span {
 
 h1,h2,h3,h4{
     color: #000;
+}
+
+
+
+               /* animation */
+               
+@keyframes leftToRight {
+    from{
+        transform: translateX(-200px);
+    }
+    to{
+        transform: translateX(0);
+    }
+}
+
+#hello-anime{
+    display: inline-block;
+    animation: leftToRight 1s ease-in 0s;
+}
+               
+@keyframes RightToLeft {
+    from{
+        transform: translateX(200px);
+    }
+    to{
+        transform: translateX(0);
+    }
+}
+
+#dev-anime{
+    display: inline-block;
+    animation: RightToLeft 1s ease-in 0s;
 }
