@@ -37,8 +37,17 @@
         #footer{
         padding: 1rem;
     }
+    .php-project{
+        flex-direction: column;
+    }
 
-
+    #php-video video{
+        width: 50rem;
+        height: auto;
+    }
+    #project h3{
+    padding-left: 2rem;
+    }
 
 } 
 
@@ -118,7 +127,29 @@
     margin-bottom: 0rem;
 }
 
+    #project{
+        margin: 2rem 1rem;
+    }
+    .php-project{
+        flex-direction: column;
+    }
 
+    #php-video video{
+        width: 20rem;
+        height: auto;
+    }
+    #project h3{
+    padding-left: 0rem;
+    }
+#php-intro{
+    margin: 0rem 0rem;
+    padding: 0rem;
+    font-size: 1.5rem;
 }
+
+} 
+
+
+
 
  

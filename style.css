@@ -23,9 +23,10 @@ body {
     font-weight: 1;
     font-style: normal;
     font-size: 2rem;
+}
 
-
-
+body p, h1, h2, h3, h4{
+    cursor: default;
 }
 
 a {
@@ -145,7 +146,7 @@ header span {
     color: #fff;
 }
 
-
+                                         /* skils -section */
 .skills-section {
     /* margin-top: 1rem; */
     width: 100%;
@@ -191,7 +192,7 @@ header span {
 
 }
 
-
+                                                 /* footer */
 
 #footer {
     background-color: #1f2421;
@@ -214,4 +215,36 @@ header span {
 
 #footer_icon {
     color: #c0c0d0;
+}
+
+
+                                    /* project : php-forum */
+
+#project{
+    margin: 2rem 5rem ;
+}
+#project h2{
+    text-align: center;
+}
+
+#php-video{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#php-video video{
+    height: 20rem;
+    width: auto;
+    opacity: 1;
+}
+#php-intro{
+    margin: 0rem 2rem;
+}
+.php-project{
+    display: flex;
+    flex-direction: row;
+}
+
+h1,h2,h3,h4{
+    color: #000;
 }
