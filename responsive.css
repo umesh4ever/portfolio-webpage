@@ -152,9 +152,79 @@ html{
     font-size: 1.5rem;
 }
 
+
+
+               /* animation */
+
+#qureySolver {
+    display: inline-block; /* important for transform to work */
+    padding: 0rem 1rem;
+    background-color: rgb(46,46,192);
+    color: white;
+    font-size: 1.5rem; 
+    border:2px solid white ; 
+    border-radius: 5px;
+
+    cursor: pointer;
+    transition: transform 0.2s, background-color 0.3s;
+}
+#qureySolver:hover {
+    transform: translateY(-2px);
+}
+
+
+               
+@keyframes leftToRight {
+    from{
+        transform: translateX(-200px);
+    }
+    to{
+        transform: translateX(0);
+    }
+}
+
+
+#hello-anime{
+    display: inline-block;
+    animation: leftToRight 1s ease-in 0s;
+}
+               
+@keyframes RightToLeft {
+    from{
+        transform: translateX(200px);
+    }
+    to{
+        transform: translateX(0);
+    }
+}
+
+#dev-anime{
+    display: inline-block;
+    animation: RightToLeft 1s ease-in 0s;
+    
+}
+
+
+#devo{
+    color: #000;
+    opacity:0 ;
+    display: inline-block;
+    animation: TopToBottom 0.3s ease 1.5s forwards;
+}
+@keyframes TopToBottom {
+    from {
+        transform: translateY(-200px);
+        opacity: 0;
+
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+        color: #000;
+
+    }
+}
+
+
+
 } 
-
-
-
-
- 

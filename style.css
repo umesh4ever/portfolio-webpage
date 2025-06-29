@@ -141,9 +141,13 @@ header p {
     padding: 0.5rem 1rem;
 }
 
-header span {
+#my-name {
     -webkit-text-stroke: 0.05rem #4fae5c;
     color: #fff;
+}
+
+#devo{
+    color: #000;
 }
 
                                          /* skils -section */
@@ -250,53 +254,3 @@ h1,h2,h3,h4{
     color: #000;
 }
 
-
-
-               /* animation */
-
-#qureySolver {
-    display: inline-block; /* important for transform to work */
-    padding: 0rem 1rem;
-    background-color: rgb(46,46,192);
-    color: white;
-    font-size: 1.5rem; 
-    border:2px solid white ; 
-    border-radius: 5px;
-
-    cursor: pointer;
-    transition: transform 0.2s, background-color 0.3s;
-}
-#qureySolver:hover {
-    transform: translateY(-2px);
-}
-
-
-               
-@keyframes leftToRight {
-    from{
-        transform: translateX(-200px);
-    }
-    to{
-        transform: translateX(0);
-    }
-}
-
-#hello-anime{
-    display: inline-block;
-    animation: leftToRight 1s ease-in 0s;
-}
-               
-@keyframes RightToLeft {
-    from{
-        transform: translateX(200px);
-    }
-    to{
-        transform: translateX(0);
-    }
-}
-
-#dev-anime{
-    display: inline-block;
-    animation: RightToLeft 1s ease-in 0s;
-    
-}
