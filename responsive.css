@@ -209,7 +209,7 @@ html{
     color: #000;
     opacity:0 ;
     display: inline-block;
-    animation: TopToBottom 0.3s ease 1.5s forwards;
+    animation: TopToBottom 0.1s ease 1.5s forwards;
 }
 @keyframes TopToBottom {
     from {
