@@ -99,13 +99,29 @@ html{
 
 
     .skills-section{
-        column-gap: 2rem;
+        column-gap: 1rem;
     }
 
     .container{
         padding: 0rem 1rem ;
         font-size: 1.5rem
     }
+    .fa-brands{
+        font-size: 3rem;
+    }
+    .skills-section h3{
+        font-size: 1.2rem;
+    }
+    .skill-card{
+        height: 4rem;
+        width: 4rem;
+    }
+    
+    .skill-card img{
+        width: 4rem;
+    }
+    
+
    
     
 #footer {
