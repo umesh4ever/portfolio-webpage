@@ -24,7 +24,7 @@ html{
 
     .skill-card{
         width: 10rem;
-        height: 15rem;
+        height: 10rem;
         margin: 1rem;
     }
     .skill-card img{
@@ -98,29 +98,30 @@ html{
     }
 
 
-        .skills-section{
+    .skills-section{
         column-gap: 2rem;
     }
+    .skill-card{
+        height: 4rem;
+        width: 4rem;
+    }
+    .skills-section h3{
+        font-size: 1.2rem;
+    }
+
+    .fa-brands{
+        font-size:4rem;
+    }
+    .skill-card img {
+    width: 4rem;
+
+}
 
     .container{
         padding: 0rem 1rem ;
         font-size: 1.5rem
     }
-    #p1{
-        color: blue;
-    }
     
-    #p2{
-        color: green;
-    
-    }
-    #p3{
-        color: pink;
-    }
-    
-    #p4{
-        color: lightsalmon;
-    }
     
 #footer {
     padding: 0.5rem 1rem;
@@ -155,23 +156,6 @@ html{
 
 
                /* animation */
-
-#qureySolver {
-    display: inline-block; /* important for transform to work */
-    padding: 0rem 1rem;
-    background-color: rgb(46,46,192);
-    color: white;
-    font-size: 1.5rem; 
-    border:2px solid white ; 
-    border-radius: 5px;
-
-    cursor: pointer;
-    transition: transform 0.2s, background-color 0.3s;
-}
-#qureySolver:hover {
-    transform: translateY(-2px);
-}
-
 
                
 @keyframes leftToRight {
