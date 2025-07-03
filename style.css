@@ -255,6 +255,7 @@ h1,h2,h3,h4{
 }
 
 
+
 #qureySolver {
     display: inline-block; /* important for transform to work */
     padding: 0rem 1rem;
@@ -265,5 +266,8 @@ h1,h2,h3,h4{
     border-radius: 5px;
 
     cursor: pointer;
-  
+    transition: transform 0.2s, background-color 0.3s;
+}
+#qureySolver:hover {
+    transform: translateY(-2px);
 }
