@@ -13,10 +13,9 @@ html {
 
 }
 
-
 body {
     /* font-family: 'Segoe Print', 'Patrick Hand', sans-serif; */
-    background-color: #2e4a6d;
+    background-color: grey;
     /* background-image: url(images/2nd-bg.jpg); */
 
 
@@ -24,8 +23,6 @@ body {
     font-weight: 1;
     font-style: normal;
     font-size: 2rem;
-  
-
 }
 
 body p, h1, h2, h3, h4{
@@ -66,7 +63,7 @@ nav {
 }
 
 .link a:hover {
-    color: #2e4a6d;
+    color: #216869;
 }
 
 .nav-logo {
@@ -74,11 +71,7 @@ nav {
 }
 
 .nav-logo a {
-    color: #2e4a6d;
-}
-
-.nav-logo a:hover {
-    color: #fff;
+    color: #9cc5a1;
 }
 
 .ham {
@@ -162,7 +155,7 @@ header p {
     /* margin-top: 1rem; */
     width: 100%;
     /* height: 50rem; */
-    /* background-color: grey; */
+    background-color: grey;
     padding: 0rem 2rem;
     border-top-left-radius: 2rem;
     border-top-right-radius: 2rem;
@@ -181,7 +174,7 @@ header p {
     display: flex;
     flex-direction: column;
     color: #fff;
-    background-color: transparent;
+    background-color: #474e4a;
     height: 8rem;
     width: 8rem;
     font-size: 1.5rem;
@@ -192,9 +185,6 @@ header p {
     text-align: center;
     text-align: center;
 
-}
-.fa-brands{
-    font-size: 5rem;
 }
 
 .skill-card:hover {
@@ -263,6 +253,8 @@ header p {
 h1,h2,h3,h4{
     color: #000;
 }
+
+
 
 
 #qureySolver {

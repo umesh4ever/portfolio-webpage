@@ -24,7 +24,7 @@ html{
 
     .skill-card{
         width: 10rem;
-        height: 10rem;
+        height: 15rem;
         margin: 1rem;
     }
     .skill-card img{
@@ -98,30 +98,29 @@ html{
     }
 
 
-    .skills-section{
+        .skills-section{
         column-gap: 2rem;
     }
-    .skill-card{
-        height: 4rem;
-        width: 4rem;
-    }
-    .skills-section h3{
-        font-size: 1.2rem;
-    }
-
-    .fa-brands{
-        font-size:4rem;
-    }
-    .skill-card img {
-    width: 4rem;
-
-}
 
     .container{
         padding: 0rem 1rem ;
         font-size: 1.5rem
     }
+    #p1{
+        color: blue;
+    }
     
+    #p2{
+        color: green;
+    
+    }
+    #p3{
+        color: pink;
+    }
+    
+    #p4{
+        color: lightsalmon;
+    }
     
 #footer {
     padding: 0.5rem 1rem;
@@ -156,6 +155,7 @@ html{
 
 
                /* animation */
+
 
                
 @keyframes leftToRight {
