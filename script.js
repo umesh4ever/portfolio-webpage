@@ -21,3 +21,10 @@ hamBtn.addEventListener("click", () => {
 
    
 });
+
+
+//Resume Download confirm 
+
+// function confirmDownload(){
+//      return confirm("Do you want to download my resume?");
+// }
