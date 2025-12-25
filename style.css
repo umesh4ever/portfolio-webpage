@@ -164,7 +164,7 @@ header p {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    column-gap: 10rem;
+    column-gap: 8rem;
 
     justify-content: space-evenly;
 }
