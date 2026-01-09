@@ -19,11 +19,13 @@ body {
     /* background-image: url(images/2nd-bg.jpg); */
 
 
-    font-family: "Patrick Hand SC", cursive;
+    font-family:  "Patrick Hand SC","Indie Flower" , cursive;
     font-weight: 1;
     font-style: normal;
     font-size: 2rem;
 }
+
+
 
 body p, h1, h2, h3, h4{
     cursor: default;
@@ -138,7 +140,7 @@ header h4 {
 }
 
 header p {
-    padding: 0.5rem 1rem;
+    padding: 0.6rem 0.2rem;
 }
 
 #my-name {
@@ -149,6 +151,12 @@ header p {
 #devo{
     color: #000;
 }
+                                        /* Skills */
+#skills{
+    display: flex;
+
+}
+
 
                                          /* skils -section */
 .skills-section {
@@ -164,9 +172,30 @@ header p {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    column-gap: 8rem;
+    column-gap: 4rem;
 
     justify-content: space-evenly;
+}
+
+
+#skills-section-div-container{
+    display: flex;
+    margin-top: 10px;
+}
+#skillsFirstDiv{
+    width: 55%;
+    border-top:2px solid black;
+    border-right:2px solid black;
+    border-bottom:2px solid black;
+}
+#skillsSecondDiv{
+    width: 45%;
+    border-top:2px solid black;
+    border-bottom:2px solid black;
+    padding: 0px 40px;
+}
+#skillsSecondDiv h1{
+    text-align: center;
 }
 
 .skill-card {

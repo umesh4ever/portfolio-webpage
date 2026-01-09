@@ -4,6 +4,9 @@ let hamBtn = document.getElementById("ham-btn");
 let mobileNavbar = document.getElementsByClassName("mobile-menu")[0];
 let hamIcon = document.getElementsByClassName("fa-solid")[0];
 
+
+let homeBtn = document.querySelector(".mobile-menu");      //any of ul btn 
+
 hamBtn.addEventListener("click", () => {
   mobileNavbar.classList.toggle("active");
 
@@ -15,12 +18,21 @@ hamBtn.addEventListener("click", () => {
    }else{
         hamIcon.classList.remove("fa-xmark");
         hamIcon.classList.add("fa-bars");
-
-
    }
+
 
    
 });
+
+homeBtn.addEventListener("click", () => {
+     console.log("hello");
+     mobileNavbar.classList.remove("active");
+     hamIcon.classList.remove("fa-xmark");
+     hamIcon.classList.add("fa-bars");
+    
+  
+});
+
 
 
 //Resume Download confirm 
