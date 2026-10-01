@@ -3,266 +3,358 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Umesh</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand+SC&family=UoqMunThenKhung&display=swap" rel="stylesheet">
-    
-    <!-- for Indie Flower font -->
-    <style>
-@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Michroma&family=Patrick+Hand+SC&family=UoqMunThenKhung&display=swap');
-</style>
-
-
+    <meta
+      name="description"
+      content="Umesh is a full-stack and AI-focused developer working across frontend, backend, automation, and modern AI applications."
+    />
+    <title>Umesh | Full-Stack & AI Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
     <link
       rel="shortcut icon"
       href="https://www.favicon.cc/logo3d/545082.png"
       sizes=""
       type="image/x-icon"
     />
-
-    
-
     <script
       src="https://kit.fontawesome.com/c6f18f267a.js"
       crossorigin="anonymous"
     ></script>
-
-    
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="responsive.css" />
   </head>
   <body>
     <nav>
-      <div class="nav-logo"><h1>
-        <a href="https://umesh4ever.github.io/portfolio-webpage">Umesh</a>
-      </h1>
+      <div class="nav-logo">
+        <h1><a href="#home">Umesh</a></h1>
       </div>
 
       <ul class="menu-link nav-links">
-        <li class="link"><a href="index.html">Home</a></li>
-        <li class="link"><a href="#skills">My Skills</a></li>
-        <li class="link"><a href="#project  ">Projects</a></li>
-        <li class="link"><a href="images/umesh_resume.pdf" target="_blank" >My Resume</a></li>
-        <li class="mobile-menu-link link"><a href="#footer">Contact</a></li>
+        <li class="link"><a href="#home">Home</a></li>
+        <li class="link"><a href="#about">About</a></li>
+        <li class="link"><a href="#stack">Stack</a></li>
+        <li class="link"><a href="#projects">Projects</a></li>
+        <li class="link"><a href="#ai">AI</a></li>
+        <li class="link"><a href="images/umesh_resume.pdf" target="_blank">Resume</a></li>
+        <li class="mobile-menu-link link"><a href="#contact">Contact</a></li>
       </ul>
 
       <div class="ham">
-        <button id="ham-btn"><i class="fa-solid fa-bars fa-2x"></i>
+        <button id="ham-btn" aria-label="Toggle navigation">
+          <i class="fa-solid fa-bars fa-2x"></i>
+        </button>
       </div>
     </nav>
 
     <div class="mobile-menu">
-      <!-- <ul class="mobile-menu-ul"> -->
-        <li class="mobile-menu-link"><a href="index.html">Home</a></li>
-        <li class="mobile-menu-link"><a href="#skills">My Skills</a></li>
-      <li class="mobile-menu-link"><a href="#project  ">Projects</a></li>
-      <li class="link"><a href="images/umesh_resume.pdf" target="_blank" >My Resume</a></li>
-      <li class="mobile-menu-link"><a href="#footer">Contact</a></li>
-      <!-- </ul> -->
+      <li class="mobile-menu-link"><a href="#home">Home</a></li>
+      <li class="mobile-menu-link"><a href="#about">About</a></li>
+      <li class="mobile-menu-link"><a href="#stack">Stack</a></li>
+      <li class="mobile-menu-link"><a href="#projects">Projects</a></li>
+      <li class="mobile-menu-link"><a href="#ai">AI</a></li>
+      <li class="mobile-menu-link"><a href="images/umesh_resume.pdf" target="_blank">Resume</a></li>
+      <li class="mobile-menu-link"><a href="#contact">Contact</a></li>
     </div>
 
-    <header class="container">
-      <div class="container">
-        <!-- <div id="main-img">
-          <img class="image" src="images/image.png" alt="huge image here" />
-        </div> -->
+    <header id="home" class="container hero-shell">
+      <div class="hero-panel">
         <div class="content">
           <div id="hero-intro">
-          <h1 id="hello-anime">Hello!,</h1>
-          <h1 class="name" id="dev-anime">I'm <span id="my-name">Umesh</span> a Web <span id="devo">Developer</span></h1>
+            <p class="eyebrow">Frontend • Backend • AI Applications</p>
+            <h1 id="hello-anime">Hello,</h1>
+            <h1 class="name" id="dev-anime">
+              I&apos;m <span id="my-name">Umesh</span>, a <span id="devo">Full-Stack Developer</span>
+            </h1>
           </div>
-          <p id="p1">
-            
-            I'm a web developer focused on JavaScript-based full-stack development.
-          </p>
 
+          <p id="p1">I build practical software that connects clean interfaces, backend systems, automation, and AI.</p>
           <p id="p2">
-            Currently building projects with modern frontend tools and exploring the MERN stack, while improving problem-solving skills.
+            My work spans frontend engineering, REST APIs, database-driven applications, and AI
+            experiences built with Python and Google Gemini.
           </p>
+          <p id="p3">Open to internships, collaborations, and product-focused engineering roles.</p>
 
-          <p id="p3">
-            Open to internships and collaborations.
-          </p>
+          <div class="hero-actions">
+            <a href="#projects" class="primary-btn">View Projects</a>
+            <a href="images/umesh_resume.pdf" target="_blank" class="secondary-btn">Download Resume</a>
+          </div>
+        </div>
 
+        <div class="hero-badge">
+          <div class="badge-card">
+            <span class="badge-label">Core Focus</span>
+            <strong>Full-stack web apps + AI workflows</strong>
+          </div>
+          <div class="badge-card">
+            <span class="badge-label">Primary Stack</span>
+            <strong>React • Node.js • Express • MongoDB • Python</strong>
+          </div>
+          <div class="badge-card">
+            <span class="badge-label">Current Exploration</span>
+            <strong>Generative AI • Agents • Data Analysis</strong>
+          </div>
         </div>
       </div>
     </header>
 
-
-
-
-    <section id="skills">
-      <div id="skills-section-div-container">
-
-        <div id="skillsFirstDiv">
-            <h1 style="text-align: center;">My Skills</h1>
-          <div class="skills-section">
-            
-        <div class="skill-card">
-              <i
-                class="fa-brands fa-html5"
-                style="color: #e44d26;  "
-              ></i>
-              <div>
-                <h3>HTML</h3>
-              </div>
+    <main>
+      <section id="about" class="section-shell">
+        <div class="section-heading">
+          <p class="section-kicker">About Me</p>
+          <h2>Developer with a product mindset.</h2>
         </div>
 
-        <div class="skill-card">
-          <i
-            class="fa-brands fa-css3"
-            style="color: #264de4; "
-          ></i>
-          <div>
-            <h3>CSS</h3>
+        <div class="about-grid">
+          <div class="glass-panel">
+            <p>
+              I&apos;m a developer with experience across frontend, backend, and AI-driven application
+              development. I enjoy turning ideas into usable software that is polished, scalable,
+              and intuitive.
+            </p>
+            <p>
+              My stack includes HTML, CSS, JavaScript, Bootstrap, Tailwind CSS, React, React Router,
+              Vite, Node.js, Express.js, MongoDB, and Mongoose, alongside C++ and Python for
+              problem solving and engineering workflows.
+            </p>
+          </div>
+
+          <div class="highlights-panel glass-panel">
+            <div class="mini-stat">
+              <span>Focus</span>
+              <strong>Full-stack + AI</strong>
+            </div>
+            <div class="mini-stat">
+              <span>Build style</span>
+              <strong>Practical, modular, user-centric</strong>
+            </div>
+            <div class="mini-stat">
+              <span>Learning</span>
+              <strong>DSA • SQL • Excel • Generative AI</strong>
+            </div>
           </div>
         </div>
+      </section>
 
-        <div class="skill-card">
-          <div>
-            <i
-              class="fa-brands fa-square-js"
-              style="color: #f7df1e; "
-            ></i>
-            <h3>JavaScript</h3>
-          </div>
-        </div>
-        <div class="skill-card">
-          <i 
-          class="fa-brands fa-react" 
-          style="color: #61DAFB;" 
-          ></i>
-          <div>
-            <h3>React js</h3>
-          </div>
-        </div>
-        <div class="skill-card">
-          <img src="https://icons.veryicon.com/png/o/business/vscode-program-item-icon/tailwindcss.png" alt="Mysql" />
-          <div>
-            <h3>Tailwind</h3>
-          </div>
-        </div>
-        <div class="skill-card">
-          <i
-            class="fa-brands fa-git-alt"
-            style="color: #f05032; "
-          ></i>
-          <div>
-            <h3>git</h3>
-          </div>
+      <section id="stack" class="section-shell">
+        <div class="section-heading center">
+          <p class="section-kicker">Core Stack</p>
+          <h2>Tools I build with.</h2>
         </div>
 
-        <div class="skill-card">
-          <i
-            class="fa-brands fa-github"
-            style="color: #fff; "
-          ></i>
-          <div>
-            <h3>github</h3>
+        <div class="tool-groups">
+          <div class="tool-group">
+            <h3>Frontend & UI</h3>
+            <div class="skills-grid">
+              <div class="skill-pill"><i class="fa-brands fa-html5 icon-html" aria-hidden="true"></i><span>HTML</span></div>
+              <div class="skill-pill"><i class="fa-brands fa-css3-alt icon-css" aria-hidden="true"></i><span>CSS</span></div>
+              <div class="skill-pill"><i class="fa-brands fa-js icon-js" aria-hidden="true"></i><span>JavaScript</span></div>
+              <div class="skill-pill"><i class="fa-brands fa-bootstrap icon-bootstrap" aria-hidden="true"></i><span>Bootstrap</span></div>
+              <div class="skill-pill"><i class="fa-solid fa-wind icon-tailwind" aria-hidden="true"></i><span>Tailwind CSS</span></div>
+              <div class="skill-pill"><i class="fa-brands fa-react icon-react" aria-hidden="true"></i><span>React</span></div>
+              <div class="skill-pill"><i class="fa-solid fa-route icon-router" aria-hidden="true"></i><span>React Router</span></div>
+              <div class="skill-pill"><i class="fa-solid fa-bolt icon-vite" aria-hidden="true"></i><span>Vite</span></div>
+            </div>
+          </div>
+
+          <div class="tool-group">
+            <h3>Backend & Data</h3>
+            <div class="skills-grid">
+              <div class="skill-pill"><i class="fa-brands fa-node-js icon-node" aria-hidden="true"></i><span>Node.js</span></div>
+              <div class="skill-pill"><i class="fa-solid fa-server icon-express" aria-hidden="true"></i><span>Express.js</span></div>
+              <div class="skill-pill"><i class="fa-solid fa-code icon-api" aria-hidden="true"></i><span>REST APIs</span></div>
+              <div class="skill-pill"><i class="fa-solid fa-leaf icon-mongodb" aria-hidden="true"></i><span>MongoDB</span></div>
+              <div class="skill-pill"><i class="fa-solid fa-layer-group icon-mongoose" aria-hidden="true"></i><span>Mongoose</span></div>
+              <div class="skill-pill"><i class="fa-solid fa-database icon-sql" aria-hidden="true"></i><span>SQL</span></div>
+              <div class="skill-pill"><i class="fa-solid fa-table icon-excel" aria-hidden="true"></i><span>Excel</span></div>
+            </div>
+          </div>
+
+          <div class="tool-group">
+            <h3>Programming & Problem Solving</h3>
+            <div class="skills-grid">
+              <div class="skill-pill"><i class="fa-solid fa-code icon-cpp" aria-hidden="true"></i><span>C++</span></div>
+              <div class="skill-pill"><i class="fa-brands fa-python icon-python" aria-hidden="true"></i><span>Python</span></div>
+              <div class="skill-pill"><i class="fa-solid fa-diagram-project icon-dsa" aria-hidden="true"></i><span>DSA</span></div>
+              <div class="skill-pill"><i class="fa-solid fa-square-root-variable icon-numpy" aria-hidden="true"></i><span>NumPy</span></div>
+              <div class="skill-pill"><i class="fa-solid fa-table icon-pandas" aria-hidden="true"></i><span>Pandas</span></div>
+              <div class="skill-pill"><i class="fa-solid fa-chart-column icon-analysis" aria-hidden="true"></i><span>Data Analysis</span></div>
+            </div>
+          </div>
+
+          <div class="tool-group">
+            <h3>AI & Automation</h3>
+            <div class="skills-grid">
+              <div class="skill-pill"><i class="fa-solid fa-wand-magic-sparkles icon-gemini" aria-hidden="true"></i><span>Google Gemini</span></div>
+              <div class="skill-pill"><i class="fa-solid fa-brain icon-generative" aria-hidden="true"></i><span>Generative AI</span></div>
+              <div class="skill-pill"><i class="fa-solid fa-robot icon-agents" aria-hidden="true"></i><span>AI Agents</span></div>
+              <div class="skill-pill"><i class="fa-solid fa-microphone icon-voice" aria-hidden="true"></i><span>Voice Interaction</span></div>
+              <div class="skill-pill"><i class="fa-solid fa-desktop icon-desktop" aria-hidden="true"></i><span>Desktop Automation</span></div>
+              <div class="skill-pill"><i class="fa-solid fa-gears icon-workflow" aria-hidden="true"></i><span>Workflow AI</span></div>
+            </div>
           </div>
         </div>
+      </section>
 
-        <div class="skill-card">
-          <i
-            class="fa-brands fa-php"
-            style="color: #8892be; "
-          ></i>
-          <div>
-            <h3>PHP</h3>
-          </div>
+      <section id="ai" class="section-shell">
+        <div class="section-heading">
+          <p class="section-kicker">AI & Systems</p>
+          <h2>Building practical intelligence and automation.</h2>
         </div>
 
-        <div class="skill-card">
-          <img src="images/mysql_logo.svg" alt="Mysql" />
-          <div>
-            <h3>MySql</h3>
-          </div>
+        <div class="feature-grid">
+          <article class="glass-panel feature-card">
+            <h3>Generative AI Workflows</h3>
+            <p>
+              Exploring the use of Google Gemini, AI agents, and workflow-based systems to build
+              smarter, more useful digital experiences.
+            </p>
+          </article>
+
+          <article class="glass-panel feature-card">
+            <h3>Local Desktop Automation</h3>
+            <p>
+              Creating script-driven solutions that reduce repetitive tasks and improve productivity
+              through automation and better software interaction.
+            </p>
+          </article>
+
+          <article class="glass-panel feature-card">
+            <h3>Voice Interaction</h3>
+            <p>
+              Experimenting with conversational interfaces that combine AI assistance with real-world
+              user experience and accessibility.
+            </p>
+          </article>
+
+          <article class="glass-panel feature-card">
+            <h3>Data & Problem Solving</h3>
+            <p>
+              Strengthening DSA, SQL, Excel, and data analysis while learning how intelligent systems
+              can support decision-making and workflows.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section id="projects" class="section-shell">
+        <div class="section-heading center">
+          <p class="section-kicker">Projects</p>
+          <h2>Selected work.</h2>
         </div>
 
-        <div class="skill-card">
-          <i
-            class="fa-brands fa-bootstrap"
-            style="color: #7952b3; "
-          ></i>
-          <div>
-            <h3>BootStrap</h3>
+        <div class="project-grid">
+          <article class="project-card glass-panel">
+            <div class="project-topline">
+              <span class="project-tag">Backend</span>
+              <span class="project-tag muted">Node.js + MongoDB</span>
+            </div>
+            <h3>YouTube-like Streaming Platform Backend</h3>
+            <p>
+              Built a backend for a streaming platform inspired by YouTube, with user management,
+              video metadata, comments, likes, watch history, and content discovery flows.
+            </p>
+            <ul>
+              <li>REST API architecture for videos, users, comments, and playlists</li>
+              <li>MongoDB schema design using Mongoose for scalable data modeling</li>
+              <li>Video metadata, likes, watch history, and content organization features</li>
+              <li>Modular backend structure for maintainability and API growth</li>
+            </ul>
+          </article>
+
+          <article class="project-card glass-panel">
+            <div class="project-topline">
+              <span class="project-tag">AI</span>
+              <span class="project-tag muted">Python</span>
+            </div>
+            <h3>Gemini-Powered Assistant</h3>
+            <p>
+              An AI-driven app that combines Python logic with Google Gemini to support contextual
+              responses, productivity actions, and modular assistant workflows.
+            </p>
+            <ul>
+              <li>Prompt-driven interactions</li>
+              <li>Python backend orchestration</li>
+              <li>Smart workflow automation</li>
+            </ul>
+          </article>
+
+          <article class="project-card glass-panel">
+            <div class="project-topline">
+              <span class="project-tag">Automation</span>
+              <span class="project-tag muted">Desktop</span>
+            </div>
+            <h3>Local Task Automation</h3>
+            <p>
+              A practical automation system designed to reduce repetitive manual work using Python,
+              local software interaction, and workflow modularity.
+            </p>
+            <ul>
+              <li>Task streamlining</li>
+              <li>Operational efficiency</li>
+              <li>Modular automation scripts</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section id="contact" class="section-shell contact-section">
+        <div class="contact-content">
+          <div class="section-heading center contact-heading">
+            <h2>Contact Me</h2>
+            <p>Let&apos;s talk engineering, Tech, AI, Automation or Core work, or a collaboration worth building.</p>
+          </div>
+
+          <div class="contact-cards">
+            <a class="contact-card glass-panel" href="mailto:umesh26710051@gmail.com">
+              <span class="contact-icon email-icon" aria-hidden="true">
+                <i class="fa-solid fa-envelope"></i>
+              </span>
+              <span class="contact-copy">
+                <span class="contact-label">Email</span>
+                <span class="contact-value">umesh26710051@gmail.com</span>
+              </span>
+            </a>
+
+            <a
+              class="contact-card glass-panel"
+              href="https://wa.me/919289253686?text=Hello%20Umesh%21%20i%20came%20from%20your%20portfolio%20site."
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <span class="contact-icon whatsapp-icon" aria-hidden="true">
+                <i class="fa-brands fa-whatsapp"></i>
+              </span>
+              <span class="contact-copy">
+                <span class="contact-label">WhatsApp</span>
+                <span class="contact-value">+91 9289253686</span>
+              </span>
+            </a>
           </div>
         </div>
-     
-          
-          </div>
-        </div>  
-
-        <!-- detailed ME  -->
-        <div id="skillsSecondDiv" >
-          <h1>More of Me</h1>
-          <p>I am currently Persuing my Bachelors of Technology in Mechanical Engineering from NSUT(Dwarka,New Delhi).</p>
-        </div>
-      </div>
-
-    </section>
-
-
-
-
-    <section id="project">
-      <h2>Project Section</h2>
-      <h3>php-forum</h3>
-      <div class="php-project">
-          <div id="php-video">
-            <video autoplay muted loop src="images/card-page.mp4"></video>
-          </div>
-          <div id="php-intro">
-            <h4 >Intro:</h4 >
-            <p> This is a php based forum website, a query solver site where people can post there question and other people can answer them. There are categories for different type of queries. <br><p style="margin-top: 1rem;"> The Frontend is made with basic html and bootstrap and Backend is working with php and Mysql database.</p>
-          </p>
-              <div><p>Go to the page if you have queries or wanna help others they realy need you <i class="fa-solid fa-right-long " style="color: blue;"></i>
-                 <a href="https://querysolvers.kesug.com/index.php" target="_blank" id="qureySolver" >QuerySolvers</a></p></div>
-          </div>
-      </div>
-    </section>
+      </section>
+    </main>
 
     <footer id="footer">
       <div id="footer_main">
-        <a
-          href="https://x.com/umesh26710051?t=osNStRsMP5N1hCn3TWjRVg&s=09"
-          target="_blank"
-        >
-          <img
-            src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/x.svg"
-            alt="X"
-            width="24"
-          />
+        <a href="https://x.com/umesh26710051?t=osNStRsMP5N1hCn3TWjRVg&s=09" target="_blank" aria-label="X profile">
+          <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/x.svg" alt="X" width="24" />
         </a>
-         <a href="https://leetcode.com/u/umesh4ever/" target="_blank">
-          <img
-            src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/leetcode.svg"
-            alt="Leetcode"
-            width="24"
-          />
+        <a href="https://leetcode.com/u/umesh4ever/" target="_blank" aria-label="Leetcode profile">
+          <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/leetcode.svg" alt="Leetcode" width="24" />
         </a>
-        <a href="https://www.linkedin.com/in/umesh-b7066627b/" target="_blank">
-          <img
-            src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/linkedin.svg"
-            alt="LinkedIn"
-            width="24"
-          />
+        <a href="https://www.linkedin.com/in/umesh-b7066627b/" target="_blank" aria-label="LinkedIn profile">
+          <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/linkedin.svg" alt="LinkedIn" width="24" />
         </a>
-        <a href="https://github.com/umesh4ever" target="_blank">
-          <img
-            src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/github.svg"
-            alt="GitHub"
-            width="24"
-          />
+        <a href="https://github.com/umesh4ever" target="_blank" aria-label="GitHub profile">
+          <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/github.svg" alt="GitHub" width="24" />
         </a>
-       
-        
       </div>
 
-      <div id="footer_icon">
-        &copy; <span id="year"></span> Umesh. All rights reserved.
-      </div>
+      <div id="footer_icon">&copy; <span id="year"></span> Umesh. All rights reserved.</div>
     </footer>
 
     <script src="script.js"></script>
